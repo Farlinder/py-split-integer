@@ -7,3 +7,4 @@ def split_integer(value: int, number_of_parts: int) -> list:
     return parts
 
 def split_integer2(value: int, number_of_parts: int) -> list:
+    wedf
