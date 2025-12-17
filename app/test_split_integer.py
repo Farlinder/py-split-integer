@@ -26,3 +26,8 @@ def test_should_add_zeros_when_value_is_less_than_number_of_parts() -> None:
     differences = 8 - 5
     for i in range(differences):
         assert result[i] == 0
+
+
+def test_should_check_different_beetwen_first_and_last_equal_one() -> None:
+    result = split_integer(17, 4)
+    assert result[3]  - result[0] == 1
