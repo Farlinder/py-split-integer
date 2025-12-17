@@ -6,5 +6,4 @@ def split_integer(value: int, number_of_parts: int) -> list:
         value -= next_number
     return parts
 
-def split_integer2(value: int, number_of_parts: int) -> list:
-    wedf
+print(split_integer(5, 8))
